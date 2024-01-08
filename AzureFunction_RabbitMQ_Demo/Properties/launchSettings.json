@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AzureFunction_RabbitMQ_Demo": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7025",
+      "launchBrowser": false
+    }
+  }
+}
