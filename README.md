@@ -3,8 +3,8 @@
 This project demonstrates an Azure Function developed in .NET 6 to showcase the RabbitMQ trigger. The function processes messages from a RabbitMQ queue named "orders" and uses SQL Server with Entity Framework Core as the ORM.
 
 ## Overview
-
-The primary function, `OrderProcessorFunction`, processes messages from the RabbitMQ queue, deserializes order data, and stores it in the SQL Server database.
+The primary function, `AddOrder`, gets order from http trigger and adds into RabbitMQ queue for futher processing.
+The seconday function, `OrderProcessorFunction`, processes messages from the RabbitMQ queue, deserializes order data, and stores it in the SQL Server database.
 
 ## Prerequisites
 
