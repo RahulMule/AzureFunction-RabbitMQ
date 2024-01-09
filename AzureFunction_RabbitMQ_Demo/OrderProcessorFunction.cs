@@ -32,5 +32,6 @@ namespace AzureFunction_RabbitMQ_Demo
             }
 
         }
+
     }
 }
